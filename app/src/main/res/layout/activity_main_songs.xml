@@ -12,8 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="76dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="69dp"
         android:fontFamily="casual"
         android:text="Songs"
         android:textAlignment="center"
@@ -35,5 +35,15 @@
         android:onClick="onClick"
         android:text="Go"
         android:textColor="@android:color/background_dark" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="302dp"
+        android:layout_height="210dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="120dp"
+        app:srcCompat="@drawable/Microphone" />
 
 </RelativeLayout>

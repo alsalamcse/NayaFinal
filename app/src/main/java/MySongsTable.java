@@ -83,7 +83,7 @@ public class MySongsTable extends SQLiteOpenHelper
             Cursor cursor=db.rawQuery(selectQuery,null);
             boolean flag=cursor.moveToFirst();
             while (flag==true) {
-                do {
+                {
                     Songs1 song = new Songs1();
                     song.set_id(cursor.getLong(0));//id
                     song.setName(cursor.getString(1));//name
